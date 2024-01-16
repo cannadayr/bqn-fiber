@@ -1,6 +1,5 @@
 # An experiment in userspace scheduling.
 scheduler ← {
-    time ← •MonoTime 0
     cur ← 0
     pid ← ⟨⟩
     at  ← ⟨⟩
